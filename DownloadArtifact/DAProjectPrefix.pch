@@ -1,0 +1,21 @@
+//
+//  DAProjectPrefix.pch
+//  DownloadArtifact
+//
+//  Created by DZH_Louis on 2017/4/12.
+//  Copyright © 2017年 DZH_Louis. All rights reserved.
+//
+
+#ifndef DAProjectPrefix_pch
+#define DAProjectPrefix_pch
+
+//编译环境的值，正式为0，测试为1
+#define BUILD_ENV_OFFICIAL 0
+#define BUILD_ENV_TEST 1
+
+#define BUILD_ENV_CONF BUILD_ENV_TEST
+
+
+#import "DAProjectDefines.h"
+
+#endif /* DAProjectPrefix_pch */
