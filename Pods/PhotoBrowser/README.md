@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/cuzv/PhotoBrowser/blob/master/LICENSE)
-[![CocoaPods Compatible](https://img.shields.io/badge/CocoaPods-v0.6.3-green.svg)](https://github.com/CocoaPods/CocoaPods)
+[![CocoaPods Compatible](https://img.shields.io/badge/CocoaPods-v0.6.5-green.svg)](https://github.com/CocoaPods/CocoaPods)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Weibo](https://img.shields.io/badge/Weibo-cuzval-yellowgreen.svg)](http://weibo.com/cuzval/)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](http://twitter.com/mochxiao)
@@ -8,53 +8,27 @@
 
 PhotoBrowser is a light weight photo browser, like the wechat, weibo image viewer.
 
-### TODO
+### Features
 
--   [x] Present & Dismissal animation
-
--   [ ] GIF support
-
-
+-   [x] Present & Dismissal animation & gesture
+-   [x] GIF support
+-   [x] Display long picture
 
 ## How does it look like?
 
 <p align="left">
-<img src="./Preview/1.gif" width=240px">
-
-<img src="./Preview/2.gif" width=240px">
-
-<img src="./Preview/3.gif" width=240px">
-
+<img src="./Preview/1.gif" width=240px">&nbsp;<img src="./Preview/2.gif" width=240px">&nbsp;<img src="./Preview/3.gif" width=240px">
 </p>
 
 ## Usage
 
 - Like the `UITableView` API, We have `DataSource` an `Delegate` for load data and handle action
-
-
 - Tell `PhotoBrowser` how many pages would you like to present by conforms protocol `PBViewControllerDataSource` and implement `numberOfPagesInViewController:` selector
-
-
 - Optional set the initialize page by `pb_startPage` property
-
-
-- Use for static Image
-
-  Conforms protocol `PBViewControllerDataSource` and implement `viewController:imageForPageAtIndex:` selector
-
-- Use for web image
-
-  Conforms protocol `PBViewControllerDataSource` and implement `viewController:presentImageView:forPageAtIndex:progressHandler` selector
-
-- Support animation
-
-      Conforms protocol `PBViewControllerDataSource` and implement `thumbViewForPageAtIndex:` tell the start and ended imageView position
-
-- Action callbacks
-
-    Conforms protocol `PBViewControllerDelegate` and implement `viewController:didSingleTapedPageAtIndex:presentedImage:` or `viewController:didLongPressedPageAtIndex:presentedImage:` handle single tap or long press action
-
-
+- Use for static Image - Conforms protocol `PBViewControllerDataSource` and implement `viewController:imageForPageAtIndex:` selector
+- Use for web image - Conforms protocol `PBViewControllerDataSource` and implement `viewController:presentImageView:forPageAtIndex:progressHandler` selector
+- Support animation - Conforms protocol `PBViewControllerDataSource` and implement `thumbViewForPageAtIndex:` tell the start and ended imageView position
+- Action callbacks - Conforms protocol `PBViewControllerDelegate` and implement `viewController:didSingleTapedPageAtIndex:presentedImage:` or `viewController:didLongPressedPageAtIndex:presentedImage:` handle single tap or long press action
 
 ## Demo code
 

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DAViewController.h"
+#import <WebKit/WebKit.h>
+#import "DAAppDelegate.h"
 
-@interface DABaseViewController : UIViewController
+@interface DABaseViewController : DAViewController
+
+@property(nonatomic,assign)UIViewController *centerTabBarController;
 
 @end

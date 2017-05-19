@@ -1,0 +1,11 @@
+/* 
+  Theme1.strings
+  DownloadArtifact
+
+  Created by DZH_Louis on 2017/5/18.
+  Copyright © 2017年 DZH_Louis. All rights reserved.
+*/
+//导航栏颜色
+c1 = "2354AD";
+//导航上segment字体颜色
+c2 = "FFFFFF";

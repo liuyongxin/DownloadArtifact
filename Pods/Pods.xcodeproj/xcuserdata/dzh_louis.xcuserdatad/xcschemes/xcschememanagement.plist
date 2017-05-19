@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>CMTabbarView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>CocoaAsyncSocket.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -25,11 +20,6 @@
 			<false/>
 		</dict>
 		<key>GPUImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>LBXScan.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -124,6 +114,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>React.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RealReachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -134,12 +129,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TCBlobDownload.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YXPopupHandleView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>ZXingObjC.xcscheme</key>
+		<key>ZFPlayer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -147,17 +152,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>04775D1452A860A1DAB838BC6B41C9E4</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D0EC0C591A6E62765A49EAC015F8725</key>
+		<key>232BE2C8E472A30588562BBFEF8ECFFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -192,12 +192,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4F69F82C1EEBC0A05686A3B0FECD2FDB</key>
+		<key>3FAD33D5E5CE5CE740038C0BB29EC48F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5700D8DB63D0F2A972BD7F787C684D8F</key>
+		<key>4E988904E85C879052F03F6D26749AB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F69F82C1EEBC0A05686A3B0FECD2FDB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -208,16 +213,6 @@
 			<true/>
 		</dict>
 		<key>625C2C32B8E442A812FB259678D81DE9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6361C9FA8032FF29AB32F1B468D12E9B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>695CC512BB920DB2DF2D1ABDF434F3BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -242,6 +237,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8894814332818C57BCE6E651594CD396</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
@@ -252,7 +252,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9EF4DF4FBCF0EDEFCAE647338C035985</key>
+		<key>A05DD832BAED1296EB261D20F4871702</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A21FD4CCEF5AB1D61F96175A28071F80</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -262,22 +267,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AD42104DF9D471462F102C273C225A32</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>CA363501EDE34B9432708D9F94542AA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ECD4B0627325AC63169AFEBBF65E2AD6</key>
+		<key>CE8D7F08C83E4738FC3849CA45B7B330</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F03AF625C68524F5CC545D6B89721EEC</key>
+		<key>D53AB7C7C750DB785B1836FC8861CC59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8F5381320BD6953E1A83820BCE33E3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ECD4B0627325AC63169AFEBBF65E2AD6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

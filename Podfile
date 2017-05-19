@@ -11,7 +11,6 @@ pod 'FMDB'
 pod 'OpenUDID'
 pod 'YYKit'
 pod 'BaiduMapKit'
-pod 'LBXScan' #扫描库
 pod 'CocoaAsyncSocket'
 pod 'PhotoAlbum'
 pod 'PhotoBrowser'
@@ -30,6 +29,26 @@ pod 'MJUtils'
 pod 'MMDrawerController'  #抽屉效果
 pod 'MMDrawerController+Storyboard'
 pod 'GPUImage'
-pod 'CMTabbarView'
+# 取决于你的工程如何组织，你的node_modules文件夹可能会在别的地方。
+# 请将:path后面的内容修改为正确的路径（一定要确保正确～～）。
+pod 'React',:path => './ReactComponent/node_modules/react-native', :subspecs => [
+'Core',
+'ART',
+'RCTActionSheet',
+'RCTAdSupport',
+'RCTGeolocation',
+'RCTImage',
+'RCTNetwork',
+'RCTPushNotification',
+'RCTSettings',
+'RCTText',
+'RCTVibration',
+'RCTWebSocket',
+'RCTLinkingIOS',
+]
+pod 'TCBlobDownload'
+pod 'ZFPlayer'
+
+pod 'YXPopupHandleView'
 
 end

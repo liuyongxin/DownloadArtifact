@@ -6,8 +6,8 @@
 //  Copyright © 2017年 DZH_Louis. All rights reserved.
 //
 
-#import "DABaseTabBarController.h"
+#import "DATabBarController.h"
 
-@interface DACenterTabBarController : DABaseTabBarController
+@interface DACenterTabBarController : DATabBarController
 
 @end

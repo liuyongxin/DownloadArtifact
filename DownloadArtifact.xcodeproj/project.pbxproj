@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		482673441ECA908A00726005 /* DAReatNativeRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482673431ECA908A00726005 /* DAReatNativeRootController.m */; };
+		482673531ECA99F000726005 /* DADownloadRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482673521ECA99F000726005 /* DADownloadRootController.m */; };
+		4826735A1ECAC52B00726005 /* DASearchRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482673591ECAC52B00726005 /* DASearchRootController.m */; };
+		482F61271ECE9C2F003B38F8 /* DAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482F61261ECE9C2F003B38F8 /* DAWebViewController.m */; };
+		482F612B1ECEBE77003B38F8 /* DAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 482F612A1ECEBE77003B38F8 /* DAButton.m */; };
+		482F612D1ECECDAF003B38F8 /* audio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 482F612C1ECECDAF003B38F8 /* audio.bundle */; };
+		482F612F1ECED032003B38F8 /* image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 482F612E1ECED032003B38F8 /* image.bundle */; };
+		4831C9711ECC2413008AD407 /* DAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4831C9701ECC2413008AD407 /* DAViewController.m */; };
+		4831C9791ECC3682008AD407 /* DAVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4831C9781ECC3682008AD407 /* DAVideoPlayerController.m */; };
 		483F244A1E9DBA7D00ECD853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F24491E9DBA7D00ECD853 /* main.m */; };
-		483F244D1E9DBA7D00ECD853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F244C1E9DBA7D00ECD853 /* AppDelegate.m */; };
-		483F24501E9DBA7D00ECD853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F244F1E9DBA7D00ECD853 /* ViewController.m */; };
 		483F24531E9DBA7D00ECD853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483F24511E9DBA7D00ECD853 /* Main.storyboard */; };
-		483F24561E9DBA7D00ECD853 /* DownloadArtifact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 483F24541E9DBA7D00ECD853 /* DownloadArtifact.xcdatamodeld */; };
 		483F24581E9DBA7D00ECD853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483F24571E9DBA7D00ECD853 /* Assets.xcassets */; };
 		483F245B1E9DBA7D00ECD853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483F24591E9DBA7D00ECD853 /* LaunchScreen.storyboard */; };
 		483F24661E9DBA7D00ECD853 /* DownloadArtifactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F24651E9DBA7D00ECD853 /* DownloadArtifactTests.m */; };
@@ -20,10 +26,15 @@
 		483F248B1E9DC77400ECD853 /* DABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F248A1E9DC77400ECD853 /* DABaseViewController.m */; };
 		483F248E1E9DC86B00ECD853 /* DANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F248D1E9DC86B00ECD853 /* DANavigationController.m */; };
 		483F24911E9E007A00ECD853 /* DALeftController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F24901E9E007A00ECD853 /* DALeftController.m */; };
-		483F24941E9E029700ECD853 /* DABaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F24931E9E029700ECD853 /* DABaseTabBarController.m */; };
 		483F24971E9E02C600ECD853 /* DACenterTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F24961E9E02C600ECD853 /* DACenterTabBarController.m */; };
 		483F249E1E9E03A600ECD853 /* DAProjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F249D1E9E03A600ECD853 /* DAProjectContext.m */; };
 		483F24A61E9E05C500ECD853 /* DAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F24A51E9E05C500ECD853 /* DAUtil.m */; };
+		4841A5361ECD355D00C2A630 /* DAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4841A5351ECD355C00C2A630 /* DAThemeManager.m */; };
+		4841A5381ECD6CCB00C2A630 /* Theme1.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4841A5371ECD6CCB00C2A630 /* Theme1.strings */; };
+		485DAA241ECAD83400B8C179 /* DATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DAA231ECAD83400B8C179 /* DATabBarController.m */; };
+		485DAA271ECAD85200B8C179 /* DATabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DAA261ECAD85200B8C179 /* DATabBarView.m */; };
+		485DAA2A1ECADC6000B8C179 /* SmartUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DAA291ECADC6000B8C179 /* SmartUtil.m */; };
+		485DAA311ECAEB6700B8C179 /* UIView+RedPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 485DAA301ECAEB6700B8C179 /* UIView+RedPoint.m */; };
 		EFCA8E63266153FDB3958E3C /* libPods-DownloadArtifact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB13AC540889CBF87AA4B043 /* libPods-DownloadArtifact.a */; };
 /* End PBXBuildFile section */
 
@@ -47,14 +58,25 @@
 /* Begin PBXFileReference section */
 		2176B2AA7EC8F117CC504AD2 /* Pods-DownloadArtifact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadArtifact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadArtifact/Pods-DownloadArtifact.debug.xcconfig"; sourceTree = "<group>"; };
 		3ABCB4262FC3240290BF2F18 /* Pods-DownloadArtifact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadArtifact.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadArtifact/Pods-DownloadArtifact.release.xcconfig"; sourceTree = "<group>"; };
+		482673421ECA908A00726005 /* DAReatNativeRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAReatNativeRootController.h; sourceTree = "<group>"; };
+		482673431ECA908A00726005 /* DAReatNativeRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAReatNativeRootController.m; sourceTree = "<group>"; };
+		482673511ECA99F000726005 /* DADownloadRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADownloadRootController.h; sourceTree = "<group>"; };
+		482673521ECA99F000726005 /* DADownloadRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DADownloadRootController.m; sourceTree = "<group>"; };
+		482673581ECAC52B00726005 /* DASearchRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DASearchRootController.h; sourceTree = "<group>"; };
+		482673591ECAC52B00726005 /* DASearchRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DASearchRootController.m; sourceTree = "<group>"; };
+		482F61251ECE9C2F003B38F8 /* DAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAWebViewController.h; sourceTree = "<group>"; };
+		482F61261ECE9C2F003B38F8 /* DAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAWebViewController.m; sourceTree = "<group>"; };
+		482F61291ECEBE77003B38F8 /* DAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAButton.h; sourceTree = "<group>"; };
+		482F612A1ECEBE77003B38F8 /* DAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAButton.m; sourceTree = "<group>"; };
+		482F612C1ECECDAF003B38F8 /* audio.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = audio.bundle; sourceTree = "<group>"; };
+		482F612E1ECED032003B38F8 /* image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = image.bundle; sourceTree = "<group>"; };
+		4831C96F1ECC2413008AD407 /* DAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAViewController.h; sourceTree = "<group>"; };
+		4831C9701ECC2413008AD407 /* DAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAViewController.m; sourceTree = "<group>"; };
+		4831C9771ECC3682008AD407 /* DAVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVideoPlayerController.h; sourceTree = "<group>"; };
+		4831C9781ECC3682008AD407 /* DAVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVideoPlayerController.m; sourceTree = "<group>"; };
 		483F24451E9DBA7D00ECD853 /* DownloadArtifact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadArtifact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483F24491E9DBA7D00ECD853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		483F244B1E9DBA7D00ECD853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		483F244C1E9DBA7D00ECD853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		483F244E1E9DBA7D00ECD853 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		483F244F1E9DBA7D00ECD853 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		483F24521E9DBA7D00ECD853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		483F24551E9DBA7D00ECD853 /* DownloadArtifact.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DownloadArtifact.xcdatamodel; sourceTree = "<group>"; };
 		483F24571E9DBA7D00ECD853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483F245A1E9DBA7D00ECD853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		483F245C1E9DBA7D00ECD853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,8 +94,6 @@
 		483F248D1E9DC86B00ECD853 /* DANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DANavigationController.m; sourceTree = "<group>"; };
 		483F248F1E9E007A00ECD853 /* DALeftController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALeftController.h; sourceTree = "<group>"; };
 		483F24901E9E007A00ECD853 /* DALeftController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALeftController.m; sourceTree = "<group>"; };
-		483F24921E9E029700ECD853 /* DABaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DABaseTabBarController.h; sourceTree = "<group>"; };
-		483F24931E9E029700ECD853 /* DABaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DABaseTabBarController.m; sourceTree = "<group>"; };
 		483F24951E9E02C600ECD853 /* DACenterTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACenterTabBarController.h; sourceTree = "<group>"; };
 		483F24961E9E02C600ECD853 /* DACenterTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACenterTabBarController.m; sourceTree = "<group>"; };
 		483F249B1E9E036900ECD853 /* DAProjectPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAProjectPrefix.pch; sourceTree = "<group>"; };
@@ -85,6 +105,17 @@
 		483F24A21E9E046E00ECD853 /* DAOfficialEnvironmentConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAOfficialEnvironmentConfig.h; sourceTree = "<group>"; };
 		483F24A41E9E05C500ECD853 /* DAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAUtil.h; sourceTree = "<group>"; };
 		483F24A51E9E05C500ECD853 /* DAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAUtil.m; sourceTree = "<group>"; };
+		4841A5341ECD355C00C2A630 /* DAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAThemeManager.h; sourceTree = "<group>"; };
+		4841A5351ECD355C00C2A630 /* DAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAThemeManager.m; sourceTree = "<group>"; };
+		4841A5371ECD6CCB00C2A630 /* Theme1.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Theme1.strings; sourceTree = "<group>"; };
+		485DAA221ECAD83400B8C179 /* DATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATabBarController.h; sourceTree = "<group>"; };
+		485DAA231ECAD83400B8C179 /* DATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATabBarController.m; sourceTree = "<group>"; };
+		485DAA251ECAD85200B8C179 /* DATabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATabBarView.h; sourceTree = "<group>"; };
+		485DAA261ECAD85200B8C179 /* DATabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATabBarView.m; sourceTree = "<group>"; };
+		485DAA281ECADC6000B8C179 /* SmartUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartUtil.h; sourceTree = "<group>"; };
+		485DAA291ECADC6000B8C179 /* SmartUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartUtil.m; sourceTree = "<group>"; };
+		485DAA2F1ECAEB6700B8C179 /* UIView+RedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RedPoint.h"; sourceTree = "<group>"; };
+		485DAA301ECAEB6700B8C179 /* UIView+RedPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RedPoint.m"; sourceTree = "<group>"; };
 		DB13AC540889CBF87AA4B043 /* libPods-DownloadArtifact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DownloadArtifact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,6 +153,99 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		482673411ECA905000726005 /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				482673421ECA908A00726005 /* DAReatNativeRootController.h */,
+				482673431ECA908A00726005 /* DAReatNativeRootController.m */,
+			);
+			path = ReactNative;
+			sourceTree = "<group>";
+		};
+		482673451ECA99AF00726005 /* DownloadModules */ = {
+			isa = PBXGroup;
+			children = (
+				482673461ECA99AF00726005 /* Controllers */,
+				482673471ECA99AF00726005 /* Models */,
+				482673481ECA99AF00726005 /* Views */,
+			);
+			path = DownloadModules;
+			sourceTree = "<group>";
+		};
+		482673461ECA99AF00726005 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				482673511ECA99F000726005 /* DADownloadRootController.h */,
+				482673521ECA99F000726005 /* DADownloadRootController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		482673471ECA99AF00726005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		482673481ECA99AF00726005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		482673541ECAA3A800726005 /*  SearchModules */ = {
+			isa = PBXGroup;
+			children = (
+				482673551ECAA3A800726005 /* Controllers */,
+				482673561ECAA3A800726005 /* Models */,
+				482673571ECAA3A800726005 /* Views */,
+			);
+			path = " SearchModules";
+			sourceTree = "<group>";
+		};
+		482673551ECAA3A800726005 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				482673581ECAC52B00726005 /* DASearchRootController.h */,
+				482673591ECAC52B00726005 /* DASearchRootController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		482673561ECAA3A800726005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		482673571ECAA3A800726005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		482F61281ECEBE42003B38F8 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				482F61291ECEBE77003B38F8 /* DAButton.h */,
+				482F612A1ECEBE77003B38F8 /* DAButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		4831C9761ECC3682008AD407 /* VideoPlayerModule */ = {
+			isa = PBXGroup;
+			children = (
+				4831C9771ECC3682008AD407 /* DAVideoPlayerController.h */,
+				4831C9781ECC3682008AD407 /* DAVideoPlayerController.m */,
+			);
+			path = VideoPlayerModule;
+			sourceTree = "<group>";
+		};
 		483F243C1E9DBA7D00ECD853 = {
 			isa = PBXGroup;
 			children = (
@@ -149,15 +273,10 @@
 			children = (
 				483F247E1E9DC53200ECD853 /* Resource */,
 				483F247F1E9DC53200ECD853 /* Source */,
-				483F244B1E9DBA7D00ECD853 /* AppDelegate.h */,
-				483F244C1E9DBA7D00ECD853 /* AppDelegate.m */,
-				483F244E1E9DBA7D00ECD853 /* ViewController.h */,
-				483F244F1E9DBA7D00ECD853 /* ViewController.m */,
 				483F24511E9DBA7D00ECD853 /* Main.storyboard */,
 				483F24571E9DBA7D00ECD853 /* Assets.xcassets */,
 				483F24591E9DBA7D00ECD853 /* LaunchScreen.storyboard */,
 				483F245C1E9DBA7D00ECD853 /* Info.plist */,
-				483F24541E9DBA7D00ECD853 /* DownloadArtifact.xcdatamodeld */,
 				483F24481E9DBA7D00ECD853 /* Supporting Files */,
 			);
 			path = DownloadArtifact;
@@ -193,6 +312,8 @@
 		483F247E1E9DC53200ECD853 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				482F612C1ECECDAF003B38F8 /* audio.bundle */,
+				482F612E1ECED032003B38F8 /* image.bundle */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -200,6 +321,9 @@
 		483F247F1E9DC53200ECD853 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				485DAA2B1ECAEAFA00B8C179 /* Categorys */,
+				485DAA201ECAD6FF00B8C179 /* Custom */,
+				482673411ECA905000726005 /* ReactNative */,
 				483F24A31E9E05B400ECD853 /* Util */,
 				483F24981E9E033200ECD853 /* Common */,
 				483F24991E9E033200ECD853 /* DataCenter */,
@@ -212,6 +336,10 @@
 		483F24801E9DC53200ECD853 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				4841A5391ECD783200C2A630 /* CommonModules */,
+				4831C9761ECC3682008AD407 /* VideoPlayerModule */,
+				482673541ECAA3A800726005 /*  SearchModules */,
+				482673451ECA99AF00726005 /* DownloadModules */,
 				483F24881E9DC77400ECD853 /* BaseModules */,
 				483F24811E9DC53200ECD853 /* MainModules */,
 			);
@@ -238,8 +366,8 @@
 				483F248A1E9DC77400ECD853 /* DABaseViewController.m */,
 				483F248C1E9DC86B00ECD853 /* DANavigationController.h */,
 				483F248D1E9DC86B00ECD853 /* DANavigationController.m */,
-				483F24921E9E029700ECD853 /* DABaseTabBarController.h */,
-				483F24931E9E029700ECD853 /* DABaseTabBarController.m */,
+				4831C96F1ECC2413008AD407 /* DAViewController.h */,
+				4831C9701ECC2413008AD407 /* DAViewController.m */,
 			);
 			path = BaseModules;
 			sourceTree = "<group>";
@@ -267,6 +395,9 @@
 		483F249A1E9E033200ECD853 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				4841A5341ECD355C00C2A630 /* DAThemeManager.h */,
+				4841A5351ECD355C00C2A630 /* DAThemeManager.m */,
+				4841A5371ECD6CCB00C2A630 /* Theme1.strings */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -276,8 +407,48 @@
 			children = (
 				483F24A41E9E05C500ECD853 /* DAUtil.h */,
 				483F24A51E9E05C500ECD853 /* DAUtil.m */,
+				485DAA281ECADC6000B8C179 /* SmartUtil.h */,
+				485DAA291ECADC6000B8C179 /* SmartUtil.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		4841A5391ECD783200C2A630 /* CommonModules */ = {
+			isa = PBXGroup;
+			children = (
+				482F61251ECE9C2F003B38F8 /* DAWebViewController.h */,
+				482F61261ECE9C2F003B38F8 /* DAWebViewController.m */,
+			);
+			path = CommonModules;
+			sourceTree = "<group>";
+		};
+		485DAA201ECAD6FF00B8C179 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				482F61281ECEBE42003B38F8 /* Button */,
+				485DAA211ECAD71F00B8C179 /* TabBar */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		485DAA211ECAD71F00B8C179 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				485DAA221ECAD83400B8C179 /* DATabBarController.h */,
+				485DAA231ECAD83400B8C179 /* DATabBarController.m */,
+				485DAA251ECAD85200B8C179 /* DATabBarView.h */,
+				485DAA261ECAD85200B8C179 /* DATabBarView.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		485DAA2B1ECAEAFA00B8C179 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				485DAA2F1ECAEB6700B8C179 /* UIView+RedPoint.h */,
+				485DAA301ECAEB6700B8C179 /* UIView+RedPoint.m */,
+			);
+			path = Categorys;
 			sourceTree = "<group>";
 		};
 		B9277FC543EE29FCC2852E1B /* Pods */ = {
@@ -401,8 +572,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482F612D1ECECDAF003B38F8 /* audio.bundle in Resources */,
+				482F612F1ECED032003B38F8 /* image.bundle in Resources */,
 				483F245B1E9DBA7D00ECD853 /* LaunchScreen.storyboard in Resources */,
 				483F24581E9DBA7D00ECD853 /* Assets.xcassets in Resources */,
+				4841A5381ECD6CCB00C2A630 /* Theme1.strings in Resources */,
 				483F24531E9DBA7D00ECD853 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +610,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BCDE9F396B8D41ACDFC605FE /* [CP] Embed Pods Frameworks */ = {
@@ -476,18 +650,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483F24501E9DBA7D00ECD853 /* ViewController.m in Sources */,
 				483F24911E9E007A00ECD853 /* DALeftController.m in Sources */,
 				483F24A61E9E05C500ECD853 /* DAUtil.m in Sources */,
-				483F24941E9E029700ECD853 /* DABaseTabBarController.m in Sources */,
+				485DAA241ECAD83400B8C179 /* DATabBarController.m in Sources */,
+				4831C9791ECC3682008AD407 /* DAVideoPlayerController.m in Sources */,
 				483F24841E9DC5B700ECD853 /* DAAppDelegate.m in Sources */,
-				483F244D1E9DBA7D00ECD853 /* AppDelegate.m in Sources */,
+				485DAA271ECAD85200B8C179 /* DATabBarView.m in Sources */,
+				485DAA311ECAEB6700B8C179 /* UIView+RedPoint.m in Sources */,
+				482673531ECA99F000726005 /* DADownloadRootController.m in Sources */,
+				482673441ECA908A00726005 /* DAReatNativeRootController.m in Sources */,
+				482F61271ECE9C2F003B38F8 /* DAWebViewController.m in Sources */,
+				485DAA2A1ECADC6000B8C179 /* SmartUtil.m in Sources */,
 				483F249E1E9E03A600ECD853 /* DAProjectContext.m in Sources */,
+				482F612B1ECEBE77003B38F8 /* DAButton.m in Sources */,
+				4826735A1ECAC52B00726005 /* DASearchRootController.m in Sources */,
 				483F24971E9E02C600ECD853 /* DACenterTabBarController.m in Sources */,
 				483F244A1E9DBA7D00ECD853 /* main.m in Sources */,
+				4841A5361ECD355D00C2A630 /* DAThemeManager.m in Sources */,
 				483F248B1E9DC77400ECD853 /* DABaseViewController.m in Sources */,
-				483F24561E9DBA7D00ECD853 /* DownloadArtifact.xcdatamodeld in Sources */,
 				483F248E1E9DC86B00ECD853 /* DANavigationController.m in Sources */,
+				4831C9711ECC2413008AD407 /* DAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,14 +821,15 @@
 			baseConfigurationReference = 2176B2AA7EC8F117CC504AD2 /* Pods-DownloadArtifact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DownloadArtifact/DAProjectPrefix.pch";
 				INFOPLIST_FILE = DownloadArtifact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Louis.DownloadArtifact.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -655,14 +838,15 @@
 			baseConfigurationReference = 3ABCB4262FC3240290BF2F18 /* Pods-DownloadArtifact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DownloadArtifact/DAProjectPrefix.pch";
 				INFOPLIST_FILE = DownloadArtifact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Louis.DownloadArtifact.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -756,19 +940,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		483F24541E9DBA7D00ECD853 /* DownloadArtifact.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				483F24551E9DBA7D00ECD853 /* DownloadArtifact.xcdatamodel */,
-			);
-			currentVersion = 483F24551E9DBA7D00ECD853 /* DownloadArtifact.xcdatamodel */;
-			path = DownloadArtifact.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 483F243D1E9DBA7D00ECD853 /* Project object */;
 }

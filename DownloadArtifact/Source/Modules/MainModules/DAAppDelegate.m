@@ -7,33 +7,63 @@
 //
 
 #import "DAAppDelegate.h"
-#import "MMDrawerController.h"
-#import "DACenterTabBarController.h"
 #import "DALeftController.h"
 
+@interface DAAppDelegate()
+{
+    MMDrawerController *_drawerController;
+}
+
+@end
 
 @implementation DAAppDelegate
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self initRootViewController];
     [self setup3DTouch:application];
-    
     return YES;
 }
 
 - (void)initRootViewController
 {
-    DACenterTabBarController *centerTabBarController = [[DACenterTabBarController alloc]init];
+    _centerTabBarController = [[DACenterTabBarController alloc]init];
     DALeftController *leftController = [[DALeftController alloc]init];
 
-    MMDrawerController *drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerTabBarController leftDrawerViewController:leftController rightDrawerViewController:nil];
-    drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
-    drawerController.closeDrawerGestureModeMask =MMCloseDrawerGestureModeAll;
-    drawerController.maximumLeftDrawerWidth = ScreenWidth * 0.8;
-    drawerController.maximumRightDrawerWidth = ScreenWidth * 0.8;
+    _drawerController = [[MMDrawerController alloc]initWithCenterViewController:_centerTabBarController leftDrawerViewController:leftController rightDrawerViewController:nil];
+    _drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+    _drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureModeAll;
+    _drawerController.maximumLeftDrawerWidth = ScreenWidth * 0.8;
+    _drawerController.maximumRightDrawerWidth = ScreenWidth * 0.8;
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = drawerController;
+    self.window.rootViewController = _drawerController;
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+}
+
+- (void)setEnableDrawerGesture:(BOOL)enableDrawerGesture
+{
+    _enableDrawerGesture = enableDrawerGesture;
+    if (enableDrawerGesture) {
+        _drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+        _drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureModeAll;
+    }
+    else
+    {
+        _drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeNone;
+        _drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureModeNone;
+    }
+}
+
+#pragma mark -- MMDrawerController
+- (void)closeDrawer:(void(^)(BOOL finished))completion
+{
+       [_drawerController closeDrawerAnimated:YES completion:completion];
+}
+
+- (void)openDrawerSide:(MMDrawerSide)drawerSide completion:(void(^)(BOOL finished))completion
+{
+    [_drawerController openDrawerSide:drawerSide animated:YES completion:completion];
 }
 
 /**

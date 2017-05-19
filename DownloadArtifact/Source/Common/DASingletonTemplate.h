@@ -22,7 +22,7 @@
 static className *shared##className = nil; \
 static dispatch_once_t onceToken; \
 dispatch_once(&onceToken, ^{ \
-shared##className = [self init]; \
+shared##className = [[self alloc]init]; \
 }); \
 return shared##className; \
 }\
@@ -39,7 +39,7 @@ return [self shared##className];\
 static className *shared##className = nil; \
 static dispatch_once_t onceToken; \
 dispatch_once(&onceToken, ^{ \
-shared##className = [self init]; \
+shared##className = [[self alloc]init]; \
 }); \
 return shared##className; \
 }\

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DAAppDelegate initRootViewController]:DAAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.window">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DATabBarController loadUIData]:DATabBarController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DAViewController loadUIData]:DAViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.showNav">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DATabBarView handleTabbarItemPressedWithIndex:]:DATabBarView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_tabItems">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DATabBarController currentTabBarViewCtrl]:DATabBarController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tabBarVCs">
+            </PersistentString>
+            <PersistentString
+               value = "_selectedTabBarIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

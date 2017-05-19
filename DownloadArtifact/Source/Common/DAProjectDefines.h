@@ -20,5 +20,9 @@
 #import "DASingletonTemplate.h"
 #import "DAProjectContext.h"
 #import "DAUtil.h"
+#import "SmartUtil.h"
+#import <objc/runtime.h>
+#import "UIView+RedPoint.h"
+#import "DAThemeManager.h"
 
 #endif /* DAProjectDefines_h */
