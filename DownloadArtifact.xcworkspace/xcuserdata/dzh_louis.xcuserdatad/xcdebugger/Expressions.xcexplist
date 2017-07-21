@@ -3,29 +3,29 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[DAAppDelegate initRootViewController]:DAAppDelegate.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "self.window">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[DATabBarController loadUIData]:DATabBarController.m">
-      </ContextState>
-      <ContextState
          contextName = "-[DAViewController loadUIData]:DAViewController.m">
          <PersistentStrings>
+            <PersistentString
+               value = "self.showTabBar">
+            </PersistentString>
             <PersistentString
                value = "self.showNav">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[DATabBarView handleTabbarItemPressedWithIndex:]:DATabBarView.m">
+         contextName = "-[YXScanCode captureAction]:YXScanCode.m">
          <PersistentStrings>
             <PersistentString
-               value = "_tabItems">
+               value = "self.stillImageOutput">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DAAppDelegate initRootViewController]:DAAppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.window">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -39,6 +39,28 @@
                value = "_selectedTabBarIndex">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DAWebViewController viewWillAppear:]:DAWebViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.urlStr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DATabBarController loadUIData]:DATabBarController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DATabBarView handleTabbarItemPressedWithIndex:]:DATabBarView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_tabItems">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DASearchRootController searchAction:]:DASearchRootController.m">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

@@ -21,6 +21,7 @@
 - (void)initBasicData
 {
     [super initBasicData];
+    self.showTabBar = YES;
 }
 
 - (void)loadUIData
@@ -28,7 +29,6 @@
     [super loadUIData];
     self.title = @"下载";
     [self setupTitleItem];
-    self.showTabBar = YES;
 }
 
  -(UITableView *)downloadingTableView

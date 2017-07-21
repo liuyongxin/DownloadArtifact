@@ -9,6 +9,7 @@
 #import "DASearchRootController.h"
 #import "DAWebViewController.h"
 #import "DAButton.h"
+#import "YXScanCode.h"
 
 @interface DASearchRootController ()
 {
@@ -19,6 +20,7 @@
 @property(nonatomic,retain)NSMutableArray *searchWebsiteImageArr;
 @property(nonatomic,retain)UITextField *searchTextField;
 @property(nonatomic,retain)UISegmentedControl *segCtr;
+@property(nonatomic,retain)YXScanCode *scanCodeView;
 
 @end
 
@@ -34,14 +36,21 @@
     _searchWebsiteTitleArr = [[NSMutableArray alloc]initWithArray:@[@"百度",@"谷歌中国",@"谷歌"]];
     _searchWebsiteImageArr = [[NSMutableArray alloc]initWithArray:@[@"baidu_web",@"google_web",@"google_web"]];
     _index = 0;
+    self.showTabBar = YES;
 }
 
 - (void)loadUIData
 {
     [super loadUIData];
     self.title = @"查询";
-    [self createSearchView];
-    self.showTabBar = YES;
+//    [self createSearchView];
+    _scanCodeView = [[YXScanCode alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    [self.view addSubview:_scanCodeView];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [_scanCodeView captureAction];
 }
 
 - (void)createSearchView
@@ -91,16 +100,19 @@
     if (btn == btn1) {
         btn2.selected = NO;
         btn3.selected = NO;
+        _index = 0;
     }
     else if (btn == btn2)
     {
         btn1.selected = NO;
         btn3.selected = NO;
+        _index = 1;
     }
     else if (btn == btn3)
     {
         btn1.selected = NO;
         btn2.selected = NO;
+        _index = 2;
     }
 }
 
@@ -112,10 +124,6 @@
     [self.navigationController pushViewController:webController animated:YES];
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
 
 - (void)viewDidAppear:(BOOL)animated
 {

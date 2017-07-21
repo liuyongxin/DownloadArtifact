@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface YXScanCode : NSObject
+@interface YXScanCode : UIView
+
+- (void)captureAction;
 
 @end

@@ -60,10 +60,21 @@
     {
         self.navigationController.navigationBarHidden = YES;
     }
-    self.view.frame = CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
-    if (self.showTabBar) {
-        DAAppDelegate *appDelegate = (DAAppDelegate *)[UIApplication sharedApplication].delegate;
-        [self.view  addSubview:appDelegate.centerTabBarController.daTabBar];
+
+}
+
+- (void)loadTabBar
+{
+    DAAppDelegate *appDelegate = (DAAppDelegate *)[UIApplication sharedApplication].delegate;
+    DATabBarView *tabbar  = appDelegate.centerTabBarController.daTabBar;
+    if (self.showTabBar)
+    {
+        self.showTabBar = NO;
+        CGFloat tabbarOriginY   = self.view.sizeHeight;
+        tabbar.hidden = NO;
+        tabbarOriginY       = tabbarOriginY - tabbar.sizeHeight;
+        tabbar.originY      = tabbarOriginY;
+        [self.view addSubview:tabbar];
     }
 }
 
@@ -71,6 +82,7 @@
 {
     [super viewWillAppear:animated];
     self.isAppear = YES;
+    [self loadTabBar];
 }
 
 - (void)viewDidAppear:(BOOL)animated

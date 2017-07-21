@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4816E6531F21985E0065104C /* YXNetworkMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 4816E6521F21985E0065104C /* YXNetworkMonitoring.m */; };
+		4816E65A1F21CF780065104C /* YXNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4816E6591F21CF780065104C /* YXNetWorking.swift */; };
+		4816E65D1F21D5040065104C /* YXScanCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4816E65C1F21D5040065104C /* YXScanCode.m */; };
 		482673441ECA908A00726005 /* DAReatNativeRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482673431ECA908A00726005 /* DAReatNativeRootController.m */; };
 		482673531ECA99F000726005 /* DADownloadRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482673521ECA99F000726005 /* DADownloadRootController.m */; };
 		4826735A1ECAC52B00726005 /* DASearchRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482673591ECAC52B00726005 /* DASearchRootController.m */; };
@@ -58,6 +61,12 @@
 /* Begin PBXFileReference section */
 		2176B2AA7EC8F117CC504AD2 /* Pods-DownloadArtifact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadArtifact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadArtifact/Pods-DownloadArtifact.debug.xcconfig"; sourceTree = "<group>"; };
 		3ABCB4262FC3240290BF2F18 /* Pods-DownloadArtifact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadArtifact.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadArtifact/Pods-DownloadArtifact.release.xcconfig"; sourceTree = "<group>"; };
+		4816E6511F21985E0065104C /* YXNetworkMonitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetworkMonitoring.h; sourceTree = "<group>"; };
+		4816E6521F21985E0065104C /* YXNetworkMonitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNetworkMonitoring.m; sourceTree = "<group>"; };
+		4816E6581F21CF770065104C /* DownloadArtifact-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DownloadArtifact-Bridging-Header.h"; sourceTree = "<group>"; };
+		4816E6591F21CF780065104C /* YXNetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXNetWorking.swift; sourceTree = "<group>"; };
+		4816E65B1F21D5040065104C /* YXScanCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXScanCode.h; sourceTree = "<group>"; };
+		4816E65C1F21D5040065104C /* YXScanCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXScanCode.m; sourceTree = "<group>"; };
 		482673421ECA908A00726005 /* DAReatNativeRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAReatNativeRootController.h; sourceTree = "<group>"; };
 		482673431ECA908A00726005 /* DAReatNativeRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAReatNativeRootController.m; sourceTree = "<group>"; };
 		482673511ECA99F000726005 /* DADownloadRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DADownloadRootController.h; sourceTree = "<group>"; };
@@ -151,6 +160,15 @@
 				DB13AC540889CBF87AA4B043 /* libPods-DownloadArtifact.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4816E6541F21C9D40065104C /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				4816E6591F21CF780065104C /* YXNetWorking.swift */,
+				4816E6581F21CF770065104C /* DownloadArtifact-Bridging-Header.h */,
+			);
+			path = NetWork;
 			sourceTree = "<group>";
 		};
 		482673411ECA905000726005 /* ReactNative */ = {
@@ -321,6 +339,7 @@
 		483F247F1E9DC53200ECD853 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4816E6541F21C9D40065104C /* NetWork */,
 				485DAA2B1ECAEAFA00B8C179 /* Categorys */,
 				485DAA201ECAD6FF00B8C179 /* Custom */,
 				482673411ECA905000726005 /* ReactNative */,
@@ -388,6 +407,8 @@
 		483F24991E9E033200ECD853 /* DataCenter */ = {
 			isa = PBXGroup;
 			children = (
+				4816E6511F21985E0065104C /* YXNetworkMonitoring.h */,
+				4816E6521F21985E0065104C /* YXNetworkMonitoring.m */,
 			);
 			path = DataCenter;
 			sourceTree = "<group>";
@@ -409,6 +430,8 @@
 				483F24A51E9E05C500ECD853 /* DAUtil.m */,
 				485DAA281ECADC6000B8C179 /* SmartUtil.h */,
 				485DAA291ECADC6000B8C179 /* SmartUtil.m */,
+				4816E65B1F21D5040065104C /* YXScanCode.h */,
+				4816E65C1F21D5040065104C /* YXScanCode.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -531,6 +554,7 @@
 					483F24441E9DBA7D00ECD853 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 8YC2YJDRHR;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					483F24601E9DBA7D00ECD853 = {
@@ -652,6 +676,7 @@
 			files = (
 				483F24911E9E007A00ECD853 /* DALeftController.m in Sources */,
 				483F24A61E9E05C500ECD853 /* DAUtil.m in Sources */,
+				4816E65D1F21D5040065104C /* YXScanCode.m in Sources */,
 				485DAA241ECAD83400B8C179 /* DATabBarController.m in Sources */,
 				4831C9791ECC3682008AD407 /* DAVideoPlayerController.m in Sources */,
 				483F24841E9DC5B700ECD853 /* DAAppDelegate.m in Sources */,
@@ -660,6 +685,7 @@
 				482673531ECA99F000726005 /* DADownloadRootController.m in Sources */,
 				482673441ECA908A00726005 /* DAReatNativeRootController.m in Sources */,
 				482F61271ECE9C2F003B38F8 /* DAWebViewController.m in Sources */,
+				4816E65A1F21CF780065104C /* YXNetWorking.swift in Sources */,
 				485DAA2A1ECADC6000B8C179 /* SmartUtil.m in Sources */,
 				483F249E1E9E03A600ECD853 /* DAProjectContext.m in Sources */,
 				482F612B1ECEBE77003B38F8 /* DAButton.m in Sources */,
@@ -668,6 +694,7 @@
 				483F244A1E9DBA7D00ECD853 /* main.m in Sources */,
 				4841A5361ECD355D00C2A630 /* DAThemeManager.m in Sources */,
 				483F248B1E9DC77400ECD853 /* DABaseViewController.m in Sources */,
+				4816E6531F21985E0065104C /* YXNetworkMonitoring.m in Sources */,
 				483F248E1E9DC86B00ECD853 /* DANavigationController.m in Sources */,
 				4831C9711ECC2413008AD407 /* DAViewController.m in Sources */,
 			);
@@ -821,6 +848,7 @@
 			baseConfigurationReference = 2176B2AA7EC8F117CC504AD2 /* Pods-DownloadArtifact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DownloadArtifact/DAProjectPrefix.pch";
@@ -829,6 +857,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Louis.DownloadArtifact.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DownloadArtifact/Source/NetWork/DownloadArtifact-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -838,6 +869,7 @@
 			baseConfigurationReference = 3ABCB4262FC3240290BF2F18 /* Pods-DownloadArtifact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DownloadArtifact/DAProjectPrefix.pch";
@@ -846,6 +878,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Louis.DownloadArtifact.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DownloadArtifact/Source/NetWork/DownloadArtifact-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -853,6 +887,7 @@
 		483F24791E9DBA7D00ECD853 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				INFOPLIST_FILE = DownloadArtifactTests/Info.plist;
@@ -866,6 +901,7 @@
 		483F247A1E9DBA7D00ECD853 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				INFOPLIST_FILE = DownloadArtifactTests/Info.plist;
@@ -879,6 +915,7 @@
 		483F247C1E9DBA7D00ECD853 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				INFOPLIST_FILE = DownloadArtifactUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -891,6 +928,7 @@
 		483F247D1E9DBA7D00ECD853 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8YC2YJDRHR;
 				INFOPLIST_FILE = DownloadArtifactUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
